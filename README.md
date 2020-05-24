@@ -23,6 +23,10 @@
 
 Allow to communicate easily with Daikin Airzone Cloud to retrieve information or to send commands (on/off, temperature, HVAC mode, ...)
 
+This API is specific to Daikin implementation (try to connect to [dkn.airzonecloud.com](https://dkn.airzonecloud.com) to be sure).
+
+If you are looking for the main Airzone Cloud API (try to connect to [www.airzonecloud.com](https://www.airzonecloud.com)), you should use this package : [AirzoneCloud](https://github.com/max13fr/AirzoneCloud)
+
 ### Module classes
 
 - **AirzoneCloudDaikin** : represent your Daikin AirzoneCloud account. Contains a list of your **installations** :
