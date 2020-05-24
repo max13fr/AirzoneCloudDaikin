@@ -1,0 +1,7 @@
+__pycache__/
+**.pyc
+.vscode
+TODROP.py
+dist/
+AirzoneCloud.egg-info/
+Sphinx-docs
