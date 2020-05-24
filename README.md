@@ -157,7 +157,7 @@ device = api.all_devices[0]
 print(device)
 
 # set mode to heat
-system.set_mode("heat")
+device.set_mode("heat")
 
 print(device)
 ```
