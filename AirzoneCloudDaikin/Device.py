@@ -243,7 +243,7 @@ class Device:
     def ask_airzone_update(self):
         """
         Ask an update to the airzone hardware (airzone cloud don't autopull data like current temperature)
-        The update should be available in airzone cloud after 3 to 5 secs in average
+        The update should be available in airzone cloud after 3 to 10 secs in average
         """
         self._send_event("", "")
 
