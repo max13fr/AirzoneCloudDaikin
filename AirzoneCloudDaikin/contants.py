@@ -6,6 +6,7 @@ API_EVENTS = "/events"
 # 2020-05-23: extracted from website and saved copy in reverse/application.js
 
 MODES_CONVERTER = {
+    "0": {"name": "none", "type": "none", "description": "None"},
     "1": {"name": "cool", "type": "cold", "description": "Cooling mode"},
     "2": {"name": "heat", "type": "heat", "description": "Heating mode"},
     "3": {
